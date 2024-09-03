@@ -6,17 +6,20 @@
   justify-content: center;
   height: 95vh;
   align-items: center;
-  background-color: rgb(55, 55, 55);
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 form{
-  background-color: rgba(69, 58, 167, 0.614);
-  width: 30%;
-  height: 80vh;
+  background-color: rgba(52, 52, 58, 0.815);
+  width: 40%;
+  height: 90vh;
   align-items: center;
   text-align: center;
-  border-radius: 7px
+  border-radius: 7px;
+  box-shadow: 4px 4px 2px rgba(28, 27, 27, 0.751);
 }
 
 .cont{
@@ -35,13 +38,12 @@ form{
   width: 100%;
 }
 
-.rowL{
- /* margin-right: 47px; */
-}
 
 input{
   height: 40px;
   text-align: center;
+  border-radius: 10px;
+  border: none;
 }
 
 #compName input {
@@ -74,8 +76,10 @@ button{
 
 form h3{
   font-size: 30px;
-  font-weight:500;
+  font-weight:600;
+  letter-spacing: 0.7px;
   padding-top: 15px; 
+  color: whitesmoke;
 }
 
 #mail input{
@@ -83,6 +87,6 @@ form h3{
   margin-top: 1.3%;
 }
 
-#sendbtn{
-  background-color: blue;
+.btnD{
+  width: 30%;
 }
